@@ -4,7 +4,7 @@ import lombok.Getter;
 
 @Getter
 
-public class Ingredient {
+public class Ingredient extends Base{
     String ingredientName;
     public Ingredient(String name){
         ingredientName = name;

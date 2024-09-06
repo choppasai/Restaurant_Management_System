@@ -1,8 +1,8 @@
 package Restaurant.Management_system.Model.Enums;
 
 public enum BillStatus {
-    PAID,
+    SUCCESS,
     PENDING,
-    TERMINATED,
+    FAILURE,
     PROCESSING
 }

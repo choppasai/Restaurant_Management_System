@@ -1,5 +1,5 @@
 package Restaurant.Management_system.Model;
 
-public class Gram {
+public class Gram extends Base{
     int quantity;
 }

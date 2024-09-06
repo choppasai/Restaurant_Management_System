@@ -1,5 +1,5 @@
 package Restaurant.Management_system.Model;
 
-public class MilliLiter {
+public class MilliLiter extends Base{
     int quantity;
 }

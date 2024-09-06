@@ -5,8 +5,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Customer {
-    private String customerName;
+public class Customer extends Base{
+    private Integer tableId;
     private String WaiterName;
     private Bill bill;
 }
